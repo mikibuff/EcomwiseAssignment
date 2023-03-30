@@ -37,55 +37,45 @@ class TheSubsequences {
 // For each integer i, it splits i into an array of digits using the split() method and checks whether subseq is a subsequence of seq using the isSubsequence() method. If subseq is a subsequence of seq, it increments count. Finally, it returns count.
 
 //Test Cases:
-
+$theSubsequences = new TheSubsequences();
 
 //Test Case 1:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(26,69,3);
 echo $result; // outputs 13
 
 //Test Case 2:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(11,100,4);
 echo $result; // outputs 18
 
 //Test Case 3:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(77,78,4);
 echo $result; // outputs 0
 
 //Test Case 4:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(13834,26066,1380);
 echo $result; // outputs 14
 
 //Test Case 5:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(1,1000000,1);
 echo $result; // outputs 468560
 
 //Test Case 6:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(25272, 31576, 757);
 echo $result; // outputs 33
 
 //Test Case 7:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(23059, 27967, 62);
 echo $result; // outputs 383
 
 //Test Case 8:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(6122, 30043, 8);
 echo $result; // outputs 8674
 
 //Test Case 9:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(10, 999999, 46);
 echo $result; // outputs 114265
 
 //Test Case 10:
-$theSubsequences = new TheSubsequences();
 $result = $theSubsequences->count(9, 6405, 95);
 echo $result; // outputs 172
 
